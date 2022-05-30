@@ -3,5 +3,5 @@ services:
     iperf3:
         container_name: iperftest
         ports:
-            - '5201:5201'
+            - '80:5201'
         image: dededede/iperf3
