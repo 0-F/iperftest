@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+    iperf3:
+        container_name: iperftest
+        ports:
+            - '5201:5201'
+        image: dededede/iperf3
